@@ -30,19 +30,21 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
+                            Categories
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="index.html">Action</a>
-                            <a class="dropdown-item" href="index.html">Another action</a>
+                            <a class="dropdown-item" href="animations.html">Animation</a>
+                            <a class="dropdown-item" href="movie.html">Movies</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="index.html">Something else here</a>
+                            <a class="dropdown-item" href="opasnoIzkushenie.html">Series</a>
                         </div>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
@@ -64,7 +66,7 @@
                 <img src="./images/animations/frozen-2.jpg" class="responsive">
 
                 <h3 style="color: white;">Frozen 2</h3>
-                <a href="https://www.youtube-nocookie.com/embed/YBUt6Q6Vu9Y?playlist=YBUt6Q6Vu9Y&autoplay=1&iv_load_policy=3&loop=1&modestbranding=1&start=" target="_blank">
+                <a href="https://movies2watch.tv/watch-movie/watch-frozen-ii-hd-5868.5404225" target="_blank">
                     <button class="btn2">
                         Watch
                     </button>
@@ -77,6 +79,24 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked2"></span>
                 </div>
+
+                <!-- <div class="justify-content-center responsive">
+                    <video controls width="auto" style="display: none; padding: 25px; align-items: center;" id="VideoWindow2">
+
+                        <source src="https://www.2embed.ru/embed/tmdb/movie?id=330457" type="video/webm">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </div>
+                <script>
+                    function myFunction2() {
+                        var x = document.getElementById("VideoWindow2");
+                        if (x.style.display === "block") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "block";
+                        }
+                    }
+                </script> -->
             </div>
         </div>
 
@@ -86,18 +106,11 @@
 
                 <h3 style="color: white;">Luca</h3>
 
-                <source src="https://fstreaming.net/storage08/76876c2d565c6a8ab52f37d22e8b274e/EP.0.v8.1639628868.480p.mp4?mac=euMYwEfUxRdxXmW7AJfDo1QPC%2BSoG25K36NlfczeS5o%3D&expiry=1643292917307" type="video/webm">
-                <button class="btn2">
+                <a href="https://fstreaming.net/storage08/76876c2d565c6a8ab52f37d22e8b274e/EP.0.v8.1639628868.480p.mp4?mac=U5ybv2MuI0cyRevsMYNl1Xy4N1PNgPiQTZjdhnpaqxk%3D&expiry=1643317481412" target="_blank">
+                    <button class="btn2" onclick="myFunction()">
                     Watch
-                
                 </button>
-                <video controls width="250">
-
-                    <source src="https://fstreaming.net/storage08/76876c2d565c6a8ab52f37d22e8b274e/EP.0.v8.1639628868.480p.mp4?mac=euMYwEfUxRdxXmW7AJfDo1QPC%2BSoG25K36NlfczeS5o%3D&expiry=1643292917307"
-                            type="video/webm">
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-
+                </a>
 
                 <div>
                     <span class="fa fa-star checked"></span>
@@ -107,17 +120,48 @@
                     <span class="fa fa-star checked2"></span>
                 </div>
 
+                <!-- <div class="justify-content-center responsive">
+                    <video controls width="auto" style="display: none; padding: 25px; align-items: center;" id="VideoWindow">
+
+                        <source src="https://movies2watch.tv/watch-movie/watch-frozen-ii-hd-5868.5404225" type="video/webm">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </div> -->
+                <!-- <script>
+                    function myFunction() {
+                        // var y = document.getElementById("MovieWindow");
+                        // var y = document.getElementById("MovieWindow1");
+                        // if (y.style.display === "none") {
+                        //     y.style.display = "block";
+                        // } else {
+                        //     y.style.display = "none";
+                        // }
+                        var x = document.getElementById("VideoWindow");
+                        if (x.style.display === "block") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "block";
+                        }
+                    }
+                </script> -->
             </div>
+
+
         </div>
 
-        <div class="column">
+        <div class="column" id="MovieWindow">
             <div class="card">
                 <img src="./images/animations/thePolarExpress.jpg" class="responsive">
                 <h3 style="color: white;">The Polar Express</h3>
-                <a href="https://movies2watch.tv/watch-movie/watch-the-polar-express-hd-18226.5300011" target="_blank">
+                <a href="https://gototub.com/watch-the-polar-express-full-movie-online-free/" target="_blank">
+
+                    <!-- <button class="btn2">
+                            Watch Trailer
+                        </button> -->
                     <button class="btn2">
-                        Watch
-                    </button>
+                            Watch 
+                        </button>
+
                 </a>
 
                 <div>
@@ -133,11 +177,12 @@
         <div class="column">
             <div class="card">
                 <img src="./images/animations/toyStory.jpg" class="responsive">
-                <h3 style="color: white;">Toy Story</h3>
-                <button class="btn2">
+                <h3 style="color: white;">Toy Story 3</h3>
+                <a href="https://youtu.be/YfduDq5gLnE" target="_blank">
+                    <button class="btn2">
                     Watch
                 </button>
-
+                </a>
                 <div>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>

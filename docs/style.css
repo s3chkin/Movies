@@ -101,3 +101,11 @@ body {
     color: rgb(255, 255, 255);
     padding-top: 15px;
 }
+
+#notSeries {
+    opacity: 0.8;
+}
+
+#notSeries:hover {
+    opacity: 1;
+}
