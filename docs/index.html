@@ -59,8 +59,8 @@
             <div class="card">
                 <img src="./images/animations/anim.jpg" class="responsive">
 
-                <h3>Animation</h3>
-                <p>Age: +7</p>
+                <h3 style="color: white;">Animation</h3>
+                <p style="color: white;">Age: +7</p>
                 <a href="animations.html">
                     <button class="btn2">
                     Next
@@ -73,25 +73,41 @@
             <div class="card">
                 <img src="./images/movies/mov1.jpg" class="responsive">
 
-                <h3>Movie</h3>
-                <p>Age: +15</p>
-                <button class="btn2">
+                <h3 style="color: white;">Movie</h3>
+                <p style="color: white;">Age: +15</p>
+                <a href="movie.html">
+                    <button class="btn2">
                     Next
-
                 </button>
+                </a>
             </div>
         </div>
 
         <div class="column">
             <div class="card">
                 <img src="./images/series/series1.jpg" class="responsive">
-                <h3>Series</h3>
-                <p>Age: +13</p>
-                <button class="btn2">
-                    Next
+                <h3 style="color: white;">Series</h3>
+                <p style="color: white;">Age: +13</p>
 
+                <!-- <iframe width="420" height="345" src="https://www.youtube.com/watch?v=PY8f1Z3nARo" id="myDIV">
+                </iframe> -->
+                <a href="opasnoIzkushenie.html">
+                    <button class="btn2" onclick="myFunction()">
+                    Next
                 </button>
+                </a>
             </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myDIV");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
         </div>
     </div>
 </body>
