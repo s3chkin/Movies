@@ -8,9 +8,14 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap'); */
 
+* {
+    max-height: 100vh;
+}
+
 body {
     /* background-color: rgb(1, 77, 100); */
     background-color: rgb(0, 0, 0);
+    max-height: 100vh;
 }
 
 .bd-example {
